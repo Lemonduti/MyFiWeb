@@ -34,7 +34,7 @@ position|提供` static``relative``absolute``fixed `四个标签；<br>`static`�
 overflow|内容溢出时的选项；<br>`visible`：不裁剪内容，可能会显示在内容框之外。<br>`hidden`：只裁剪内容；<br>`scroll`：裁剪并提供滚动条；<br>`auto`：若溢出则滚动；<br>`no-display`：内容不合适内容框则删除整个框；<br>`no-content`：内容不合适内容框则隐藏内容。
 Z-index|堆叠优先级，可为负值，默认为`auto`，与父元素相等；无父元素则为 0。`inherit`：从父元素继承值。<br>**_也可设定具体数值规定优先级，数值越高则离用户越近。_**
 |zoom|根据 @viewport 来初始化一个缩放因数。可设置小数`(大于0)`或百分比`(非负百分比)`，`1.0`和`100%`表示不缩放
-|margin|可设置`1-4`个值。总是从`上`开始顺时针指明，若某一方向缺省，则合并到相对方向的数值。
+|margin|外边距。可设置`1-4`个值。总是从`上`开始顺时针指明，若某一方向缺省，则合并到相对方向的数值。
 |text-decoration|文本修饰。<br>`none`无任何修饰；<br>`overline` ,`line-through` ,`underline`分别为上划线、删除线、下划线；<br>`blink`闪烁文本；<br>`inherit`继承父元素属性
 usemap|属于标签 `<img>` 的属性，将图像定义为客户端图像映射（带有可点击区域的图像），与` <map> `的 name 或 id 属性关联，建立二者之间的关系
 autocomplete|自动完成表单，即表单记忆功能，可设置` off `或` on `
